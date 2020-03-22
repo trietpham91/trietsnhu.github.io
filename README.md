@@ -13,3 +13,4 @@ This page is designed in order to fullfill SNHU capstone course.
    ### ADD method is till bugging
 
 
+![main interface](image/1.png)
