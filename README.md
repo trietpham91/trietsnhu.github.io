@@ -3,34 +3,13 @@
 Hello, My name is Triet Pham
 This page is designed in order to fullfill SNHU capstone course.
 
-### Markdown
+############# SNHU CAPSTONE FINAL PROJECT #################
+########### STOCK DATABASE MANAGEMENT SYSTEM ############
+This app allows to perorm SCRUD directly to noSQL-MONGODB database
+The user interface is in development
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/trietpham91/trietsnhu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+***app version:1.0.1
+  ***3.22.2020
+  Update tableview # 2 to show stock prices, 200 days moving aveage
+  Read, Delete and Update can be done directly on the app interface
+  ADD method is till bugging
