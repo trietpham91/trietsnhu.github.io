@@ -12,5 +12,8 @@ This page is designed in order to fullfill SNHU capstone course.
    ### Read, Delete and Update can be done directly on the app interface.
    ### ADD method is till bugging
 
-
+# Main Interface
 ![main interface](image/1.PNG)
+
+# Add or Remove functions
+![main CRUD](image/2.png)
