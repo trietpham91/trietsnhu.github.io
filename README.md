@@ -44,3 +44,6 @@ This is a python application to load mongodb database data in pyside2 interface
 1. Update table 3
 2.Table 3 shows stock statistic data
 3. Can add empty row and edit Ticker Data now
+
+# App Interface
+1. [main interface](image/2.01.PNG)
