@@ -1,9 +1,5 @@
-# Python-MongoDB-Example
+# Python-MongoDB-Stock Management System
 A Live working Example Application of Python, Qt, PySide2, MongoDB, PyMongo, QTableView, QAbstractTableModel
-
-# A Complete Video Tutorial of this application is Available
-#### https://www.youtube.com/vfxpipeline
-#### Please Subscribe to my youtube channel to appriciate me.
 
 # What is this application ?
 This is a python application to load mongodb database data in pyside2 interface
@@ -35,5 +31,8 @@ This is a python application to load mongodb database data in pyside2 interface
 7. Add New Empty Row in QAbstractTableModel
 8. Remove row from QAbstractTableModel
 9. Edit Cell value in QAbstractTableModel
-10. Display image in column of QAbstractTableModel
-11. On double click on image a QFileDialog will open to change image
+
+# Version 1.0.2
+1. Update table 3
+2.Table 3 shows stock statistic data
+3. Can add empty row and edit Ticker Data now
