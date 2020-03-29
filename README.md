@@ -32,7 +32,15 @@ This is a python application to load mongodb database data in pyside2 interface
 8. Remove row from QAbstractTableModel
 9. Edit Cell value in QAbstractTableModel
 
-# Version 1.0.2
+# app version:1.0.1
+  ## 3.22.2020
+  1. Update tableview # 2 to show stock prices, 200 days moving aveage
+  2. Read, Delete and Update can be done directly on the app interface
+  3.Update tableview # 2 to show stock prices, 200 days moving aveage.
+  4. Read, Delete and Update can be done directly on the app interface.
+  5. ADD method is till bugging
+# app version 1.0.2
+  ## 3.29.2020
 1. Update table 3
 2.Table 3 shows stock statistic data
 3. Can add empty row and edit Ticker Data now
