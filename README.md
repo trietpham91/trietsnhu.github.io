@@ -51,8 +51,11 @@ This is a python application to load mongodb database data in pyside2 interface
 3. Add/remove empty row
 
 # App Interface
-Main Interface. ![main interface](image/2.01.png)
-Sub CRUD window. ![main interface](image/5.1.png)
+## Main Interface. 
+![main interface](image/2.01.png)
+## Sub CRUD window. 
+![main interface](image/5.1.png)
+## Update Feature
 ![main interface](image/5.2.png)
 
 
