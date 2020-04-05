@@ -44,6 +44,15 @@ This is a python application to load mongodb database data in pyside2 interface
 1. Update table 3
 2.Table 3 shows stock statistic data
 3. Can add empty row and edit Ticker Data now
+# app version 1.0.3
+  ## 4.05.2020
+1. Create CRUB side window
+2.Fully Edit Current Cell Interactively in Tableview 3
+3. Add/remove empty row
 
 # App Interface
-1. ![main interface](image/2.01.png)
+Main Interface. ![main interface](image/2.01.png)
+Sub CRUD window. ![main interface](image/5.1.png)
+![main interface](image/5.2.png)
+
+
