@@ -5,8 +5,6 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
-        icon = QtGui.QIcon()
-        MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout_3 = QtWidgets.QGridLayout(self.centralwidget)
@@ -64,7 +62,6 @@ class Ui_MainWindow(object):
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
         self.actionAbout_Application = QtWidgets.QAction(MainWindow)
-        self.actionAbout_Application.setIcon(icon)
         self.actionAbout_Application.setObjectName("actionAbout_Application")
         self.menuAbout.addAction(self.actionAbout_Application)
         self.menubar.addAction(self.menuAbout.menuAction())
