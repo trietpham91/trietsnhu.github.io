@@ -61,11 +61,11 @@ This is a python application to load mongodb database data in pyside2 interface
 
 
 ## Status
-- [ ] Code Review
+- [x] Code Review
 - [x] Enhancement Narrative I
 - [x] Enhancement Narrative II
 - [x] Enhancement Narrative III
-- [ ] Professional Self-Assessment
+- [x] Professional Self-Assessment
 
 
 ## What's included
