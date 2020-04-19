@@ -68,49 +68,17 @@ This is a python application to load mongodb database data in pyside2 interface
 - [x] Professional Self-Assessment
 
 
-## What's included
+## Informal Code Review
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+## Informal Code Review
 
-```text
-bootstrap/
-└── dist/
-    ├── css/
-    │   ├── bootstrap-grid.css
-    │   ├── bootstrap-grid.css.map
-    │   ├── bootstrap-grid.min.css
-    │   ├── bootstrap-grid.min.css.map
-    │   ├── bootstrap-reboot.css
-    │   ├── bootstrap-reboot.css.map
-    │   ├── bootstrap-reboot.min.css
-    │   ├── bootstrap-reboot.min.css.map
-    │   ├── bootstrap-utilities.css
-    │   ├── bootstrap-utilities.css.map
-    │   ├── bootstrap-utilities.min.css
-    │   ├── bootstrap-utilities.min.css.map
-    │   ├── bootstrap.css
-    │   ├── bootstrap.css.map
-    │   ├── bootstrap.min.css
-    │   └── bootstrap.min.css.map
-    └── js/
-        ├── bootstrap.bundle.js
-        ├── bootstrap.bundle.js.map
-        ├── bootstrap.bundle.min.js
-        ├── bootstrap.bundle.min.js.map
-        ├── bootstrap.esm.js
-        ├── bootstrap.esm.js.map
-        ├── bootstrap.esm.min.js
-        ├── bootstrap.esm.min.js.map
-        ├── bootstrap.js
-        ├── bootstrap.js.map
-        ├── bootstrap.min.js
-        └── bootstrap.min.js.map
-```
+## Artifact(s)
 
-We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). [source maps](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Bundled JS files (`bootstrap.bundle.js` and minified `bootstrap.bundle.min.js`) include [Popper](https://popper.js.org/).
-
+## Naratives
 
 ## Bugs and feature requests
+
+## Professional Self-Assessment
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/.github/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
 
