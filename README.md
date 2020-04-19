@@ -1,20 +1,6 @@
-##
-<p align="center">
-  <a href="https://www.snhu.edu/">
-    <img src="image/snhu.png" alt="SNHU logo" width="72" height="72">
-  </a>
-</p>
-
-<h3 align="center">CS 499 Final Project ePortfolio </h3>
-<p align="center">
-  A Live working Example Application of Python, Qt, PySide2, MongoDB, PyMongo, QTableView, QAbstractTableModel
-<p align="center">
-  Triet Pham.
-<p align="center">
-  Submitted to Prof. Satish Penmatsa
-  
-###
-  
+# CS 499 Final Project ePortfolio
+# Triet Pham
+# Submitted to Prof. Satish Penmatsa
   
 ## Table of contents
 - [Professional Self-Assessment](#Professional-Self-Assessment)
