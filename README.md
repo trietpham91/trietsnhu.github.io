@@ -78,6 +78,16 @@ This is a python application to load mongodb database data in pyside2 interface
 
 <h3 align="center">Old Stock Database User Interface in Python Shell</h3>
   
+  Then my first initial design was creating a one main window that shows every information of the stock database
+  <p align="center">
+    <img src="image/mockup.jpg.png" alt="mockup">
+  </a>
+</p>
+
+<h3 align="center">Mockup Design for the new Application</h3>
+  
+
+  
 
 ## Naratives
 
