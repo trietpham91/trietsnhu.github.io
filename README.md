@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://getbootstrap.com/">
+  <a href="https://www.snhu.edu/">
     <img src="image/snhu.png" alt="SNHU logo" width="72" height="72">
   </a>
 </p>
