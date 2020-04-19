@@ -21,7 +21,7 @@
 - [Artifact(s)](#Artifact(s))
 - [Naratives](#Naratives)
 - [Versioning](#versioning)
-- [Copyright and license](#copyright-and-license)
+- [Creators](#Creators)
 
 ## Status
 - [x] Code Review
@@ -30,6 +30,11 @@
 - [x] Enhancement Narrative III
 - [x] Professional Self-Assessment
 
+## Professional Self-Assessment
+  Hello My name is Triet Pham. I live in Worcester - a small town near Boston Massachusetts. For more of my information, please go to **Creators** and view my LinkedLink profile. Thank you for landing your foot to this page.
+  This project is a requirement in order to finish CS-499-Q4508 Computer Science Capstone 20EW4, which is a part of Computer Science Major in Southern New Hamsphire University. The project is a front end- back end progame, which the front ent is a Graphic User Interface that shows stock data. Besides, the back end is the entire database with Json data structure. In addition, the backend is coded with Python and Pymongo library. On the other hand, the front end is enhanced by using Pyside and Qtable.
+  This project also shows my strength in computer science skill, specificly in database manipulation and Python Programming langue. By doing and completing this project, I am albo to gain a huge amount of knowlege about designing and making UI through Python Language. As a result, this project will strengthen my **Software Design and Engineering** skill. It also helps me to be prapared for future carrer, when Information Technology and Big Data is getting more population. For example, by creating the UI with multiple tables, which I have to perform alot of software designing skills. Then performing CRUD( Create, Read, Update, Delete) in the backend by using MongoDB and Python programming language also shows my programming skillsets. 
+    In this project, the backend and the frontend are in the master-slave relationtinship. At first, the backend will use Pyside and QtCore in order to create the blank tables. Then it will execute fuctions in order to show the stock data in all tables. However, the frontend also recive inputs from users then send those inputs to backend. The backend will exceute fucntions based on those inputs and output the results back to the frontend
 
 ## Introduction
 
@@ -126,7 +131,7 @@ This is a python application to load mongodb database data in pyside2 interface
   * The three tables are are to synchronize together. I have to refactor and take alot of time in order to have those tables work togetger
   * The add function take a lot of time to complete because the complication of the database. However, I sucessfully can add the new row to the databse.
 
-### II.Database
+### II. Database
 #### Description
   This artifact was created in the last term project. It basically is the database which has all the bult-in stock information such as Ticker, Industry, Conpany, Price, etc. It was a pure database. However, during the last term, I was able to perform CRUD command then print the result directly to the command shell. The project was coded in Codio. **However, for this capstone, I want to build the Graphic User Interface Program then perform CRUD commands directly into the program**
 ### What are included
