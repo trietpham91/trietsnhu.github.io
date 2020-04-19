@@ -4,24 +4,24 @@
   </a>
 </p>
 
-<h3 align="center">CS 499 Final Project </h3>
+<h3 align="center">CS 499 Final Project ePortfolio </h3>
 
 <p align="center">
   MongoDB Stock Management System.
-
-
+<p align="center">
+  Triet Pham.
+<p align="center">
+  Submitted to Prof. Satish Penmatsa
+  
 ## Table of contents
 
-- [Quick start](#quick-start)
+- [Introduction](#quick-start)
 - [Status](#status)
-- [What's included](#whats-included)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Community](#community)
+- [Informal Code Review](#Informal Code Review)
+- [Artifact(s)](#Artifact(s))
+- [Naratives](#Naratives)
+- [Professional Self-Assessment](#Professional Self-Assessment)
 - [Versioning](#versioning)
-- [Creators](#creators)
-- [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
 
