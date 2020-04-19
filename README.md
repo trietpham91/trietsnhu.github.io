@@ -71,7 +71,7 @@ This is a python application to load mongodb database data in pyside2 interface
 #### Migrating to Pyside And QTable
 ##### a. Software Design and Engineering
   In this section, I will choose to enhance software design. For the artifact, I will reuse the source code I have created for my last term final project, which crate and modified the built in stock market database by using MongoDB.  However, the last term final project just ends with pure Python code, which has no software design implement. Therefore, I want to create the final program which will enhance on software design and support user interface
-   <img src="image/old system.jpg" alt="old system" width="72" height="72">
+   <img src="image/old system.jpg" alt="old system" ">
   
 
 ## Naratives
