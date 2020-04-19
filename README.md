@@ -76,7 +76,7 @@ This is a python application to load mongodb database data in pyside2 interface
   </a>
 </p>
 
-<h3 align="center">CS 499 Final Project ePortfolio </h3>
+<h3 align="center">Old Stock Database User Interface in Python Shell</h3>
   
 
 ## Naratives
