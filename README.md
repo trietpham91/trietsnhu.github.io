@@ -144,6 +144,9 @@ This is a python application to load mongodb database data in pyside2 interface
   There is no obstacles during database development.
 
 ## Bugs and feature requests
+ - Adding data does not work in table 1 and table 2, need to rework on algorithims. 
+ - Tableviews will need to rework in the future for better view
+ 
 
 ## Documentation
 
