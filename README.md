@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.google.com/search?q=snhu&rlz=1C1CHBF_enUS877US877&sxsrf=ALeKk00gf8G-7K6uWjNsQFULZIJaxfjLTg:1587329486007&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiem56Rr_XoAhWSbc0KHUh3AEQQ_AUoA3oECBUQBQ&biw=782&bih=738#imgrc=QlT9x_VzWegSCM">
-    <img src="https://www.google.com/search?q=snhu&rlz=1C1CHBF_enUS877US877&sxsrf=ALeKk00gf8G-7K6uWjNsQFULZIJaxfjLTg:1587329486007&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiem56Rr_XoAhWSbc0KHUh3AEQQ_AUoA3oECBUQBQ&biw=782&bih=738#imgrc=QlT9x_VzWegSCM" alt="Bootstrap logo" width="72" height="72">
+  <a href="https://getbootstrap.com/">
+    <img src="image/snhu.PNG" alt="Bootstrap logo" width="72" height="72">
   </a>
 </p>
 
