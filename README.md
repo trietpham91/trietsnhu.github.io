@@ -120,7 +120,11 @@ This is a python application to load mongodb database data in pyside2 interface
     <img src="image/5.1.png" alt="CRUD">
   </a>
 </p>
-<h3 align="center">Final Version</h3>
+<h3 align="center">CRUD pops up window</h3>
+
+#### Challenges
+  * The three tables are are to synchronize together. I have to refactor and take alot of time in order to have those tables work togetger
+  * The add function take a lot of time to complete because the complication of the database. However, I sucessfully can add the new row to the databse.
 
 ## Bugs and feature requests
 
