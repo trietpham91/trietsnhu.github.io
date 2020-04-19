@@ -69,8 +69,8 @@ This is a python application to load mongodb database data in pyside2 interface
 
 ## Artifact(s)
 #### Migrating to Pyside And QTable
-##### a. Software Design and Engineering
-  In this section, I will choose to enhance software design. For the artifact, I will reuse the source code I have created for my last term final project, which crate and modified the built in stock market database by using MongoDB.  However, the last term final project just ends with pure Python code, which has no software design implement. Therefore, I want to create the final program which will enhance on software design and support user interface
+##### a. Software Design and Engineering (CS 340: Advanced Programming Concepts)
+  In this section, I will choose to enhance software design. For the artifact, I will reuse the source code I have created for my last term final project, which crate and modified the built in stock market database by using MongoDB.  However, the last term final project just ends with pure Python code, which has no software design implement. Therefore, I want to create the final program which will enhance on software design and support user interface. After researching what kind of proper library in order to create a GUI table, I have found and choose **PySide and QTable as a core libraries in order to work on designing part**
 <p align="center">
     <img src="image/oldsystem.jpg" alt="oldsystem">
   </a>
@@ -83,12 +83,15 @@ This is a python application to load mongodb database data in pyside2 interface
     <img src="image/mockup.jpg.png" alt="mockup">
   </a>
 </p>
-
 <h3 align="center">Mockup Design for the new Application</h3>
-  
-
-  
-
+ ### Database (CS 340: Advanced Programming Concepts)
+  In the last term final project, I already had a built in database. All I needed to do that to implement CRUD to the database, which anyone can perform CRUD to the database. For the improvement for the project, I will work on how to use Python in order to perform CRUD command directly to the database by using **pymongo library**. Besides, performing CRUD in Python and exporting the results to the UI table is another enhanment in this artifact. 
+  Then my first initial design was creating a one main window that shows every information of the stock database
+  <p align="center">
+    <img src="image/database.png" alt="mockup">
+  </a>
+</p>
+<h3 align="center">Databse Use Case Diagram</h3>
 ## Naratives
 
 ## Bugs and feature requests
