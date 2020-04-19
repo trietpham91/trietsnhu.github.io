@@ -17,10 +17,10 @@
 
 - [Introduction](#Introduction)
 - [Status](#status)
-- [Informal Code Review](#Informal Code Review)
+- [Informal Code Review](#Informal-Code-Review)
 - [Artifact(s)](#Artifact(s))
 - [Naratives](#Naratives)
-- [Professional Self-Assessment](#Professional Self-Assessment)
+- [Professional Self-Assessment](#Professional-Self-Assessment)
 - [Versioning](#versioning)
 - [Copyright and license](#copyright-and-license)
 
