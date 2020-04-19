@@ -87,9 +87,9 @@ This is a python application to load mongodb database data in pyside2 interface
   Then my first initial design was creating a one main window that shows every information of the stock database
   <p align="center">
     <img src="image/mockup.jpg.png" alt="mockup">
-  </a>
 </p>
 <h3 align="center">Mockup Design for the new Application</h3>
+</p>
  ### Database (CS 340: Advanced Programming Concepts)
   In the last term final project, I already had a built in database. All I needed to do that to implement CRUD to the database, which anyone can perform CRUD to the database. For the improvement for the project, I will work on how to use Python in order to perform CRUD command directly to the database by using **pymongo library**. Besides, performing CRUD in Python and exporting the results to the UI table is another enhanment in this artifact. 
   Then my first initial design was creating a one main window that shows every information of the stock database
