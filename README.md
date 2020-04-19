@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://getbootstrap.com/">
-    <img src="image/snhu.PNG" alt="Bootstrap logo" width="72" height="72">
+    <img src="image/snhu.PNG" alt="SNHU logo" width="72" height="72">
   </a>
 </p>
 
