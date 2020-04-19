@@ -15,7 +15,23 @@ global current_row
 
 
 class PythonMongoDB(main.Ui_MainWindow, QtWidgets.QMainWindow):
-    current_row = 1
+
+    def return_current_row(self, row):
+        """
+
+        :rtype: object
+        """
+        global current_row
+        current_row = 1
+        row1 = current_row
+        for index in sorted(self.tableView.selectionModel().selectedRows()):
+            row1 = index.row()
+        row1 = row
+        print(row)
+        return row
+
+
+
 
     def __init__(self):
         super(PythonMongoDB, self).__init__()
@@ -49,9 +65,8 @@ class PythonMongoDB(main.Ui_MainWindow, QtWidgets.QMainWindow):
         menu = QtWidgets.QMenu()
         add_data = menu.addAction("Add New Data")
         refresh = menu.addAction("View")
-        refresh.triggered.connect(lambda:self.tableView_2.updateEditorData())
+        refresh.triggered.connect(lambda: self.tableView_2.updateEditorData())
         refresh.triggered.connect(lambda: self.tableView_2.setModel(self.model2))
-
         add_data.triggered.connect(lambda: self.model1.insertRows())
         remove_data = menu.addAction("Remove Data")
         remove_data.triggered.connect(lambda: self.model1.removeRows(self.tableView.currentIndex()))
@@ -60,22 +75,13 @@ class PythonMongoDB(main.Ui_MainWindow, QtWidgets.QMainWindow):
         cursor = QtGui.QCursor()
         menu.exec_(cursor.pos())
 
-    def return_current_row(self):
-        global current_row
-        row1 = self.current_row
-        for index in sorted(self.tableView.selectionModel().selectedRows()):
-            row1 = index.row()
-        current_row = row1
-        print(row1)
-        return current_row
-
 
 if __name__ == '__main__':
     global current_row
+
     app = QtWidgets.QApplication([])
-    current_row = PythonMongoDB().return_current_row()
+
     my_app = PythonMongoDB()
 
     my_app.show()
-
     app.exec_()

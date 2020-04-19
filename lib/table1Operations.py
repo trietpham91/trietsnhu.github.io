@@ -4,7 +4,9 @@ from PySide2 import QtGui
 from PySide2.QtCore import QAbstractTableModel, Qt
 from lib import databaseOperations
 
-
+"""
+        Create the table 1 in the table view
+        """
 class CustomTable1Model(QtCore.QAbstractTableModel):
     """
     Custom Table Model to handle MongoDB Data
@@ -67,15 +69,15 @@ class CustomTable1Model(QtCore.QAbstractTableModel):
         column = self.columns[index.column()]
         try:
             if index.column() == 1:
-                selected_row = self.user_data[index.row()]
+                selected_row = row
                 company = selected_row['Company']
                 return company
             if index.column() == 2:
-                selected_row = self.user_data[index.row()]
+                selected_row = row
                 ticker = selected_row['Ticker']
                 return ticker
             if index.column() == 3:
-                selected_row = self.user_data[index.row()]
+                selected_row = row
                 ticker = selected_row['Industry']
                 return ticker
             elif role == QtCore.Qt.DisplayRole:
@@ -101,7 +103,15 @@ class CustomTable1Model(QtCore.QAbstractTableModel):
                 return True
         return False
 
+    """
+            Function to insert rows
+            """
     def insertRows(self):
+
+        """
+                Insert data in table cells
+
+                """
         row_count = len(self.user_data)
         self.beginInsertRows(QtCore.QModelIndex(), row_count, row_count)
         empty_data = {key: None for key in self.columns if not key == '_id'}
@@ -112,7 +122,14 @@ class CustomTable1Model(QtCore.QAbstractTableModel):
         self.endInsertRows()
         return True
 
+    """
+        Function to remove rows
+            """
     def removeRows(self, position):
+        """
+                Remove data in table cells
+                :param position:
+                """
         row_count = self.rowCount()
         row_count -= 1
         self.beginRemoveRows(QtCore.QModelIndex(), row_count, row_count)
@@ -134,4 +151,4 @@ class InLineEditDelegate(QtWidgets.QItemDelegate):
 
     def setEditorData(self, editor, index):
         text = index.data(QtCore.Qt.EditRole) or index.data(QtCore.Qt.DisplayRole)
-        editor.setText(str(text))
+        editor.setText((text))

@@ -113,7 +113,16 @@ class CustomTable3Model(QtCore.QAbstractTableModel):
                 return True
         return False
 
+    """
+            Function to insert rows
+            """
+
     def insertRows(self):
+
+        """
+                Insert data in table cells
+
+                """
         row_count = len(self.user_data)
         self.beginInsertRows(QtCore.QModelIndex(), row_count, row_count)
         empty_data = {key: None for key in self.columns if not key == '_id'}
@@ -124,7 +133,15 @@ class CustomTable3Model(QtCore.QAbstractTableModel):
         self.endInsertRows()
         return True
 
+    """
+        Function to remove rows
+            """
+
     def removeRows(self, position):
+        """
+                Remove data in table cells
+                :param position:
+                """
         row_count = self.rowCount()
         row_count -= 1
         self.beginRemoveRows(QtCore.QModelIndex(), row_count, row_count)
@@ -134,3 +151,4 @@ class CustomTable3Model(QtCore.QAbstractTableModel):
         self.user_data.pop(row_id)
         self.endRemoveRows()
         return True
+

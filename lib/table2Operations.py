@@ -5,16 +5,14 @@ from PySide2.QtCore import QAbstractTableModel, Qt
 from lib import databaseOperations
 import mongo_python
 
+global current_row
+
 
 class CustomTable2Model(QtCore.QAbstractTableModel, mongo_python.PythonMongoDB):
-    """
-    Custom Table Model to handle MongoDB Data
-    """
-
     def __init__(self, data):
         QtCore.QAbstractTableModel.__init__(self)
         self.user_data = data
-        self.columns = list(self.user_data[0])[0:4]
+        self.columns = list(self.user_data[0].keys())
 
     def flags(self, index):
         """
@@ -48,13 +46,16 @@ class CustomTable2Model(QtCore.QAbstractTableModel, mongo_python.PythonMongoDB):
         """
         return len(self.columns)
 
-    header_labels = ['id', 'Price', 'YTD', '200SMA']
-
-    def headerData(self, section, orientation, role=Qt.DisplayRole):
-
-        if role == Qt.DisplayRole and orientation == Qt.Horizontal:
-            return self.header_labels[section]
-        return QAbstractTableModel.headerData(self, section, orientation, role)
+    def headerData(self, section, orientation, role=QtCore.Qt.DisplayRole):
+        """
+        set column header data
+        :param section:
+        :param orientation:
+        :param role:
+        :return:
+        """
+        if orientation == QtCore.Qt.Horizontal and role == QtCore.Qt.DisplayRole:
+            return self.columns[section].title()
 
     def data(self, index, role):
         """
@@ -63,31 +64,18 @@ class CustomTable2Model(QtCore.QAbstractTableModel, mongo_python.PythonMongoDB):
         :param role:
         :return:
         """
-        global curent_row
-        column = self.columns[index.column()]
-        row = self.user_data[index.row()]
 
+        row = self.user_data[index.row()]
+        column = self.columns[index.column()]
         try:
-            print(mongo_python.PythonMongoDB.current_row)
-            row1 = mongo_python.PythonMongoDB.current_row
             if index.column() == 1:
-                mongo_python.PythonMongoDB.current_row = row1
-                selected_row = self.user_data[row1]
-                company = selected_row['Price']
-                print(mongo_python.PythonMongoDB.current_row )
-                return company
-            if index.column() == 2:
-                row1 = mongo_python.PythonMongoDB.current_row
-                selected_row = self.user_data[row1]
-                ticker = selected_row['Performance (YTD)']
-                print(row1)
-                return ticker
-            if index.column() == 3:
-                row1 = mongo_python.PythonMongoDB.current_row
-                selected_row = self.user_data[row1]
-                ticker = selected_row['200-Day Simple Moving Average']
-                print(row1)
-                return ticker
+                selected_row = self.user_data[4]
+                image_data = selected_row['photo']
+                image = QtGui.QImage()
+                image.loadFromData(image_data)
+                icon = QtGui.QIcon()
+                icon.addPixmap(QtGui.QPixmap.fromImage(image))
+                return icon
             elif role == QtCore.Qt.DisplayRole:
                 return str(row[column])
         except KeyError:
@@ -111,7 +99,16 @@ class CustomTable2Model(QtCore.QAbstractTableModel, mongo_python.PythonMongoDB):
                 return True
         return False
 
+    """
+            Function to insert rows
+            """
+
     def insertRows(self):
+
+        """
+                Insert data in table cells
+
+                """
         row_count = len(self.user_data)
         self.beginInsertRows(QtCore.QModelIndex(), row_count, row_count)
         empty_data = {key: None for key in self.columns if not key == '_id'}
@@ -122,7 +119,15 @@ class CustomTable2Model(QtCore.QAbstractTableModel, mongo_python.PythonMongoDB):
         self.endInsertRows()
         return True
 
+    """
+        Function to remove rows
+            """
+
     def removeRows(self, position):
+        """
+                Remove data in table cells
+                :param position:
+                """
         row_count = self.rowCount()
         row_count -= 1
         self.beginRemoveRows(QtCore.QModelIndex(), row_count, row_count)
@@ -132,6 +137,24 @@ class CustomTable2Model(QtCore.QAbstractTableModel, mongo_python.PythonMongoDB):
         self.user_data.pop(row_id)
         self.endRemoveRows()
         return True
+
+
+class ProfilePictureDelegate(QtWidgets.QStyledItemDelegate):
+    """
+    This will open QFileDialog to select image
+    """
+
+    def __init__(self):
+        QtWidgets.QStyledItemDelegate.__init__(self)
+
+    def createEditor(self, parent, option, index):
+        editor = QtWidgets.QFileDialog()
+        return editor
+
+    def setModelData(self, editor, model, index):
+        selected_file = editor.selectedFiles()[0]
+        image = open(selected_file, 'rb').read()
+        model.setData(index, image)
 
 
 class InLineEditDelegate(QtWidgets.QItemDelegate):
@@ -144,4 +167,3 @@ class InLineEditDelegate(QtWidgets.QItemDelegate):
 
     def setEditorData(self, editor, index):
         text = index.data(QtCore.Qt.EditRole) or index.data(QtCore.Qt.DisplayRole)
-        editor.setText(str(text))
