@@ -92,7 +92,23 @@ This is a python application to load mongodb database data in pyside2 interface
   </a>
 </p>
 <h3 align="center">Databse Use Case Diagram</h3>
+
+
 ## Naratives
+### I. Software Design and Engineering
+#### Description
+  This artifact was created in the last term project. It basically is the database which has all the bult-in stock information such as Ticker, Industry, Conpany, Price, etc. It was a pure database. However, during the last term, I was able to perform CRUD command then print the result directly to the command shell. The project was coded in Codio. **However, for this capston, I want to build the Graphic User Interface Program then perform CRUD commands directly into the program**
+### Justify and Inclusion
+  The library I have used in order to enhance this artifact which is **Pyside and QTable**. Those librares help me to create  multiple tables and export all stock data in database to the tables. Besides that, all the CRUD perfomance will also be made directly on those tables. 
+### Justify and Inclusion
+#### Learning
+  During the development, I am able to create multiples table that export all the data from the database. At first, my initial decision that were creating only one table (see Mockup) which was included all the stock information. However,  After multiple revisions, my final GUI which is included three different tables. The first table will show stock company, ticker and industry. The second table is for editing specific stock data. And the last table that will show the rest of the stock data.
+<p align="center">
+    <img src="image/1.PNG" alt="firstversion">
+  </a>
+</p>
+<h3 align="center">First Version</h3>
+
 
 ## Bugs and feature requests
 
