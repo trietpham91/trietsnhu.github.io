@@ -7,7 +7,7 @@
 <h3 align="center">CS 499 Final Project </h3>
 
 <p align="center">
-  Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+  MongoDB Stock Management System.
   <br>
   <a href="https://getbootstrap.com/docs/4.3/"><strong>Explore Bootstrap docs »</strong></a>
   <br>
