@@ -108,7 +108,19 @@ This is a python application to load mongodb database data in pyside2 interface
   </a>
 </p>
 <h3 align="center">First Version</h3>
+<p align="center">
+    <img src="image/final.PNG" alt="finalversion">
+  </a>
+</p>
+<h3 align="center">Final Version</h3>
 
+  Besides, I also create the pops-up window after the right click is triggered. The pops-up window will contrain the basic CRUD functions. Therefore, In order to perform CRUD, I just need to right click and choose what type of action I want to do.
+  
+<p align="center">
+    <img src="image/5.1.png" alt="CRUD">
+  </a>
+</p>
+<h3 align="center">Final Version</h3>
 
 ## Bugs and feature requests
 
