@@ -95,7 +95,6 @@ This is a python application to load mongodb database data in pyside2 interface
   Then my first initial design was creating a one main window that shows every information of the stock database
   <p align="center">
     <img src="image/database.png" alt="mockup">
-  </a>
 </p>
 <h3 align="center">Databse Use Case Diagram</h3>
 
@@ -111,12 +110,10 @@ This is a python application to load mongodb database data in pyside2 interface
   During the development, I am able to create multiples table that export all the data from the database. At first, my initial decision that were creating only one table (see Mockup) which was included all the stock information. However,  After multiple revisions, my final GUI which is included three different tables. The first table will show stock company, ticker and industry. The second table is for editing specific stock data. And the last table that will show the rest of the stock data.
 <p align="center">
     <img src="image/1.PNG" alt="firstversion">
-  </a>
 </p>
 <h3 align="center">First Version</h3>
 <p align="center">
     <img src="image/final.PNG" alt="finalversion">
-  </a>
 </p>
 <h3 align="center">Final Version</h3>
 
@@ -124,7 +121,6 @@ This is a python application to load mongodb database data in pyside2 interface
   
 <p align="center">
     <img src="image/5.1.png" alt="CRUD">
-  </a>
 </p>
 <h3 align="center">CRUD pops up window</h3>
 
