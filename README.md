@@ -14,15 +14,21 @@
   Submitted to Prof. Satish Penmatsa
   
 ## Table of contents
-
-- [Introduction](#Introduction)
 - [Status](#status)
+- [Introduction](#Introduction)
 - [Informal Code Review](#Informal-Code-Review)
 - [Artifact(s)](#Artifact(s))
 - [Naratives](#Naratives)
 - [Professional Self-Assessment](#Professional-Self-Assessment)
 - [Versioning](#versioning)
 - [Copyright and license](#copyright-and-license)
+
+## Status
+- [x] Code Review
+- [x] Enhancement Narrative I
+- [x] Enhancement Narrative II
+- [x] Enhancement Narrative III
+- [x] Professional Self-Assessment
 
 
 ## Introduction
@@ -59,20 +65,11 @@ This is a python application to load mongodb database data in pyside2 interface
 9. Edit Cell value in QAbstractTableModel
 
 
-
-## Status
-- [x] Code Review
-- [x] Enhancement Narrative I
-- [x] Enhancement Narrative II
-- [x] Enhancement Narrative III
-- [x] Professional Self-Assessment
-
-
-## Informal Code Review
-
 ## Informal Code Review
 
 ## Artifact(s)
+### Migrating to Pyside And QTable
+#### Software Design and Engineering
 
 ## Naratives
 
