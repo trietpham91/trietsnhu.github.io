@@ -149,9 +149,29 @@ Pymongo's documentation, is built with [Pymongo](https://pymongo.readthedocs.io/
 
 ## Versioning
 
-For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
-
-See [the Releases section of our GitHub project](https://github.com/twbs/bootstrap/releases) for changelogs for each release version of Bootstrap. Release announcement posts on [the official Bootstrap blog](https://blog.getbootstrap.com/) contain summaries of the most noteworthy changes made in each release.
+### app version:1.0.1
+  #### 3.22.2020
+  1. Update tableview # 2 to show stock prices, 200 days moving aveage
+  2. Read, Delete and Update can be done directly on the app interface
+  3.Update tableview # 2 to show stock prices, 200 days moving aveage.
+  4. Read, Delete and Update can be done directly on the app interface.
+  5. ADD method is till bugging
+### app version 1.0.2
+  #### 3.29.2020
+1. Update table 3
+2.Table 3 shows stock statistic data
+3. Can add empty row and edit Ticker Data now
+### app version 1.0.3
+  #### 4.05.2020
+1. Create CRUB side window
+2.Fully Edit Current Cell Interactively in Tableview 3
+3. Add/remove empty rownoteworthy changes made in each release.
+### app version 1.0.4
+  ### 4.19.2020
+1. Revise table 2 to be fully eddited 
+2. Rework on table 1 to make it cleaner
+3. Update Readme for the final project
+4. Refactor, clean code
 
 
 ## Creators
