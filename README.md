@@ -4,7 +4,6 @@
   </a>
 </p>
 <h3 align="center">CS 499 Final Project ePortfolio </h3>
-</p>
 <p align="center">
   A Live working Example Application of Python, Qt, PySide2, MongoDB, PyMongo, QTableView, QAbstractTableModel
 </p>
