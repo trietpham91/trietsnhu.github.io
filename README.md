@@ -72,6 +72,7 @@ This is a python application to load mongodb database data in pyside2 interface
 
 
 ## Informal Code Review
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=inT5Zz1aj74)
 
 ## Artifact(s)
 #### Migrating to Pyside And QTable
