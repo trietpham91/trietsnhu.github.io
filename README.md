@@ -36,7 +36,7 @@
   * This project is a requirement in order to finish CS-499-Q4508 Computer Science Capstone 20EW4, which is a part of Computer Science Major in Southern New Hamsphire University. The project is a front end- back end progame, which the front ent is a Graphic User Interface that shows stock data. Besides, the back end is the entire database with Json data structure. In addition, the backend is coded with Python and Pymongo library. On the other hand, the front end is enhanced by using Pyside 
   * This project also shows my strength in computer science skill, specificly in database manipulation and Python Programming langue. By doing and completing this project, I am albo to gain a huge amount of knowlege about designing and making UI through Python Language. As a result, this project will strengthen my **Software Design and Engineering** skill. It also helps me to be prapared for future carrer, when Information Technology and Big Data is getting more population. For example, by creating the UI with multiple tables, which I have to perform alot of software designing skills. Then performing CRUD( Create, Read, Update, Delete) in the backend by using MongoDB and Python programming language also shows my programming 
    * In this project, the backend and the frontend are in the master-slave relationtinship. At first, the backend will use Pyside and QtCore in order to create the blank tables. Then it will execute fuctions in order to show the stock data in all tables. However, the frontend also recive inputs from users then send those inputs to backend. The backend will exceute fucntions based on those inputs and output the results back to the frontend
-   * Finally, this project also shows my strength in security mindset. Nowadays, many databases have shown the lack in security by using weak cyber security infrastructure. Therefore, I have designed this application to be fully protected and invulnerable to any exploits from outside. Besides, by strenghthen the security side, I will make sure all the data in the database will be safe and its privacy will be protected. In general, I have used **MongoDB Compass** as a gate to enter the database, only authorized people with proper credibilty can mofify and manipulate data inside the database. More specific, I am the only admistrator that have the fully acess such as read and write the data. Other people might have full or limited acess such as read only, depending on what role they are in this project.
+   * Finally, this project also shows my strength in security mindset. Nowadays, many databases have shown the lack in security by using weak cyber security infrastructure. Therefore, I have designed this application to be fully protected and invulnerable to any exploits from outside. Besides, by strenghthen the security side, I will make sure all the data in the database will be safe and its privacy will be protected. In general, I have used **MongoDB Compass** as a gate to enter the database, only authorized people with proper credibilty can mofify and manipulate data inside the database. More specific, I am the only admistrator that have the fully acess such as read and write the data. Other people might have full or limited acess such as read only, depending on what role they are in this project. I beleave this project will help me to learn how to protect any severs and databases by using a good authentication method.
 
 ## Introduction
 
@@ -92,7 +92,6 @@ This is a python application to load mongodb database data in pyside2 interface
     <img src="image/mockup.jpg.png" alt="mockup">
 </p>
 <h3 align="center">Mockup Design for the new Application</h3>
-</p>
  ### Database (CS 340: Advanced Programming Concepts)
   In the last term final project, I already had a built in database. All I needed to do that to implement CRUD to the database, which anyone can perform CRUD to the database. For the improvement for the project, I will work on how to use Python in order to perform CRUD command directly to the database by using **pymongo library**. Besides, performing CRUD in Python and exporting the results to the UI table is another enhanment in this artifact. 
   Then my first initial design was creating a one main window that shows every information of the stock database
@@ -145,10 +144,11 @@ This is a python application to load mongodb database data in pyside2 interface
     <img src="image/compass.PNG" alt="compass">
 </p>
 <h3 align="center">Mongo Compass Authentication Window</h3>
-</p>
+
 ### Justify and Inclusion
 #### Learning
-  For this artifact, because I based on the old code that already has the CRUD built-in, hence I need to convert the old code to the new one which fit to pymongo library. As a result, during this capstone, I am able to know how to transfer and convert any Pymongo command into Pytho code. 
+  * For this artifact, because I based on the old code that already has the CRUD built-in, hence I need to convert the old code to the new one which fit to pymongo library. As a result, during this capstone, I am able to know how to transfer and convert any Pymongo command into Pytho code. 
+  * On the other hand, I have learned how to strengthen the security and privacy of the sever by using proper authentication system. By praticing sercurity mindset, I will gain more experice for my future projects and carrer. Besides, throughout the developing process, I have acchieved the concept of cyber securiy. Then I can enhance my mindset in the future works. 
 
 #### Challenges
   There is no obstacles during database development.
